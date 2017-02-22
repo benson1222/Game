@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,main_set_png,11111_jpg,main_star1_png,main_star2_png,main_box_png,main_ka1_png,main_ka2_png,main_ka3_png,main_box2_png,main_add1_png,main_add2_png,com_btn_close_png,com_dem_png,com_replay_png,com_heard_png,com_next_png,com_store_png,com_ok_png,com_cenal_png,com_toStore_png,com_start_png,com_coin_png,com_btn_1_png,com_btn_2_png,com_btn_3_png,com_btn_4_png,com_btn_5_png,com_btn_6_png,map_1_png,map_2_png,map_3_png,font_main_png,font_main_fnt",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,main_set_png,11111_jpg,main_star1_png,main_star2_png,main_box_png,main_ka1_png,main_ka2_png,main_ka3_png,main_box2_png,main_add1_png,main_add2_png,com_btn_close_png,com_dem_png,com_replay_png,com_heard_png,com_next_png,com_store_png,com_ok_png,com_cenal_png,com_toStore_png,com_start_png,com_coin_png,com_btn_1_png,com_btn_2_png,com_btn_3_png,com_btn_4_png,com_btn_5_png,com_btn_6_png,map_1_png,map_2_png,map_3_png,font_main_png,font_main_fnt,main_point_png",
 			"name": "preload"
 		}
 	],
@@ -300,6 +300,11 @@
 			"name": "font_main_fnt",
 			"type": "font",
 			"url": "font/font_main.fnt"
+		},
+		{
+			"name": "main_point_png",
+			"type": "image",
+			"url": "ui_res/main/main_point.png"
 		}
 	]
 }
