@@ -39,5 +39,25 @@
 		<e:Group width="160" height="40" x="244.69" y="27.03">
 			<e:BitmapLabel id="LabelDemNum" font="font_main_fnt" text="9923" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6999999999999998" scaleY="0.6999999999999998" width="228.5714285714286" horizontalCenter="0" verticalCenter="0" textAlign="center"/>
 		</e:Group>
+		<e:Group width="160" height="40" x="450" y="28.02">
+			<e:BitmapLabel id="LabelDemNum0" font="font_main_fnt" text="9923" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6999999999999998" scaleY="0.6999999999999998" width="228.5714285714286" horizontalCenter="0" verticalCenter="0" textAlign="center"/>
+		</e:Group>
 	</e:Group>
+	<e:Button id="BtnStore" label="" horizontalCenter="3.5" bottom="15">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_6_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="com_store_png" horizontalCenter="4" bottom="37"/>
+	<e:Button id="BtnSetting" label="" x="19.37" y="1020.6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="main_set_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
 </e:Skin>

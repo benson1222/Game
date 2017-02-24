@@ -1,5 +1,10 @@
 {
-  "15a6129dad6": {
-    "guideLinesEnabled": true
-  }
+    "15a6129dad6": {
+        "guideLinesEnabled": true
+    },
+    "15a6b65d7ad": {
+        "path": "GameUI/GameMainUI.ts",
+        "class": "GameMainUI",
+        "parentPath": ""
+    }
 }
