@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,main_set_png,11111_jpg,main_star1_png,main_star2_png,main_box_png,main_ka1_png,main_ka2_png,main_ka3_png,main_box2_png,main_add1_png,main_add2_png,com_btn_close_png,com_dem_png,com_replay_png,com_heard_png,com_next_png,com_store_png,com_ok_png,com_cenal_png,com_toStore_png,com_start_png,com_coin_png,com_btn_1_png,com_btn_2_png,com_btn_3_png,com_btn_4_png,com_btn_5_png,com_btn_6_png,map_1_png,map_2_png,map_3_png,font_main_png,font_main_fnt,main_point_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,main_set_png,main_star1_png,main_star2_png,main_box_png,main_ka1_png,main_ka2_png,main_ka3_png,main_box2_png,main_add1_png,main_add2_png,com_btn_close_png,com_dem_png,com_replay_png,com_heard_png,com_next_png,com_store_png,com_ok_png,com_cenal_png,com_toStore_png,com_start_png,com_coin_png,com_btn_1_png,com_btn_2_png,com_btn_3_png,com_btn_4_png,com_btn_5_png,com_btn_6_png,map_1_png,map_2_png,map_3_png,font_main_png,font_main_fnt,main_point_png,game_bg_png,game_ball_1_png,game_ball_10_png,game_ball_100_png,game_ball_11_png,game_ball_12_png,game_ball_13_png,game_ball_14_png,game_ball_15_png,game_ball_16_png,game_ball_2_png,game_ball_3_png,game_ball_4_png,game_ball_5_png,game_ball_6_png,game_ball_7_png,game_ball_8_png,game_ball_9_png,game_ball_ex1_png,game_ball_ex2_png,game_ball_ex3_png,game_ball_ex4_png,game_ball_ex5_png,game_Route1_png,game_Route2_png,game_Route3_png,game_Route4_png,game_Route5_png,game_Route6_png,game_Route7_png,game_Route8_png,game_bottle_1_png,game_bottle_2_png,game_bottle_3_png,game_ pause_png,game_ball_start_png,game_bottomMaskBg_png,game_ButMain_png,game_butReplay_png,game_circle_png,game_countText_png,game_pauseBg_png,game_scoreStar_png,game_sendBottom_png,game_sendMachine_png,game_star_l_png,game_star_png,game_tipsBox3_png,game_topBg_png,game_levelBg_png,game_pause_bg_png,game_pause_Title_png,game_progress1_png,game_progressBg_png,game_starBg_png,game_starHigh_png,game_ballNum_bg_png,主地图1_jpg,主游戏-购买道具提示1_jpg,元宝不足提示进入商店1_jpg,关卡结算1_jpg,关卡详情-无星星无道具_jpg,关卡详情-选中道具效果1_jpg,关卡详情-道具说明1_jpg,暂停界面1_jpg,设置-开启音乐状态1_jpg,购买生命界面1_jpg,购买金币界面1_jpg,购买钻石界面1_jpg,退出游戏提示1_jpg,主游戏_jpg,but_help_png,but_music_close_png,but_music_open_png,but_sound_close_png,but_sound_open_png,com_win_bg_png,com_win_bg2_png",
 			"name": "preload"
 		}
 	],
@@ -140,11 +140,6 @@
 			"name": "main_set_png",
 			"type": "image",
 			"url": "ui_res/main/main_set.png"
-		},
-		{
-			"name": "11111_jpg",
-			"type": "image",
-			"url": "ui_res/main/11111.jpg"
 		},
 		{
 			"name": "main_star1_png",
@@ -305,6 +300,396 @@
 			"name": "main_point_png",
 			"type": "image",
 			"url": "ui_res/main/main_point.png"
+		},
+		{
+			"name": "game_bg_png",
+			"type": "image",
+			"url": "ui_res/game/game_bg.png"
+		},
+		{
+			"name": "game_ball_1_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_1.png"
+		},
+		{
+			"name": "game_ball_10_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_10.png"
+		},
+		{
+			"name": "game_ball_100_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_100.png"
+		},
+		{
+			"name": "game_ball_11_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_11.png"
+		},
+		{
+			"name": "game_ball_12_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_12.png"
+		},
+		{
+			"name": "game_ball_13_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_13.png"
+		},
+		{
+			"name": "game_ball_14_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_14.png"
+		},
+		{
+			"name": "game_ball_15_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_15.png"
+		},
+		{
+			"name": "game_ball_16_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_16.png"
+		},
+		{
+			"name": "game_ball_2_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_2.png"
+		},
+		{
+			"name": "game_ball_3_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_3.png"
+		},
+		{
+			"name": "game_ball_4_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_4.png"
+		},
+		{
+			"name": "game_ball_5_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_5.png"
+		},
+		{
+			"name": "game_ball_6_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_6.png"
+		},
+		{
+			"name": "game_ball_7_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_7.png"
+		},
+		{
+			"name": "game_ball_8_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_8.png"
+		},
+		{
+			"name": "game_ball_9_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_9.png"
+		},
+		{
+			"name": "game_ball_ex1_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_ex1.png"
+		},
+		{
+			"name": "game_ball_ex2_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_ex2.png"
+		},
+		{
+			"name": "game_ball_ex3_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_ex3.png"
+		},
+		{
+			"name": "game_ball_ex4_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_ex4.png"
+		},
+		{
+			"name": "game_ball_ex5_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_ball_ex5.png"
+		},
+		{
+			"name": "game_Route1_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route1.png"
+		},
+		{
+			"name": "game_Route2_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route2.png"
+		},
+		{
+			"name": "game_Route3_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route3.png"
+		},
+		{
+			"name": "game_Route4_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route4.png"
+		},
+		{
+			"name": "game_Route5_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route5.png"
+		},
+		{
+			"name": "game_Route6_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route6.png"
+		},
+		{
+			"name": "game_Route7_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route7.png"
+		},
+		{
+			"name": "game_Route8_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball/game_Route8.png"
+		},
+		{
+			"name": "game_bottle_1_png",
+			"type": "image",
+			"url": "ui_res/game/game_bottle_1.png"
+		},
+		{
+			"name": "game_bottle_2_png",
+			"type": "image",
+			"url": "ui_res/game/game_bottle_2.png"
+		},
+		{
+			"name": "game_bottle_3_png",
+			"type": "image",
+			"url": "ui_res/game/game_bottle_3.png"
+		},
+		{
+			"name": "game_ pause_png",
+			"type": "image",
+			"url": "ui_res/game/game_ pause.png"
+		},
+		{
+			"name": "game_ball_start_png",
+			"type": "image",
+			"url": "ui_res/game/game_ball_start.png"
+		},
+		{
+			"name": "game_bottomMaskBg_png",
+			"type": "image",
+			"url": "ui_res/game/game_bottomMaskBg.png"
+		},
+		{
+			"name": "game_ButMain_png",
+			"type": "image",
+			"url": "ui_res/game/game_ButMain.png"
+		},
+		{
+			"name": "game_butReplay_png",
+			"type": "image",
+			"url": "ui_res/game/game_butReplay.png"
+		},
+		{
+			"name": "game_circle_png",
+			"type": "image",
+			"url": "ui_res/game/game_circle.png"
+		},
+		{
+			"name": "game_countText_png",
+			"type": "image",
+			"url": "ui_res/game/game_countText.png"
+		},
+		{
+			"name": "game_pauseBg_png",
+			"type": "image",
+			"url": "ui_res/game/game_pauseBg.png"
+		},
+		{
+			"name": "game_scoreStar_png",
+			"type": "image",
+			"url": "ui_res/game/game_scoreStar.png"
+		},
+		{
+			"name": "game_sendBottom_png",
+			"type": "image",
+			"url": "ui_res/game/game_sendBottom.png"
+		},
+		{
+			"name": "game_sendMachine_png",
+			"type": "image",
+			"url": "ui_res/game/game_sendMachine.png"
+		},
+		{
+			"name": "game_star_l_png",
+			"type": "image",
+			"url": "ui_res/game/game_star_l.png"
+		},
+		{
+			"name": "game_star_png",
+			"type": "image",
+			"url": "ui_res/game/game_star.png"
+		},
+		{
+			"name": "game_tipsBox3_png",
+			"type": "image",
+			"url": "ui_res/game/game_tipsBox3.png"
+		},
+		{
+			"name": "game_topBg_png",
+			"type": "image",
+			"url": "ui_res/game/game_topBg.png"
+		},
+		{
+			"name": "game_levelBg_png",
+			"type": "image",
+			"url": "ui_res/game/game_levelBg.png"
+		},
+		{
+			"name": "game_pause_bg_png",
+			"type": "image",
+			"url": "ui_res/game/game_pause_bg.png"
+		},
+		{
+			"name": "game_pause_Title_png",
+			"type": "image",
+			"url": "ui_res/game/game_pause_Title.png"
+		},
+		{
+			"name": "game_progress1_png",
+			"type": "image",
+			"url": "ui_res/game/game_progress1.png"
+		},
+		{
+			"name": "game_progressBg_png",
+			"type": "image",
+			"url": "ui_res/game/game_progressBg.png"
+		},
+		{
+			"name": "game_starBg_png",
+			"type": "image",
+			"url": "ui_res/game/game_starBg.png"
+		},
+		{
+			"name": "game_starHigh_png",
+			"type": "image",
+			"url": "ui_res/game/game_starHigh.png"
+		},
+		{
+			"name": "game_ballNum_bg_png",
+			"type": "image",
+			"url": "ui_res/game/game_ballNum_bg.png"
+		},
+		{
+			"name": "主地图1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/主地图1.jpg"
+		},
+		{
+			"name": "主游戏-购买道具提示1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/主游戏-购买道具提示1.jpg"
+		},
+		{
+			"name": "元宝不足提示进入商店1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/元宝不足提示进入商店1.jpg"
+		},
+		{
+			"name": "关卡结算1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/关卡结算1.jpg"
+		},
+		{
+			"name": "关卡详情-无星星无道具_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/关卡详情-无星星无道具.jpg"
+		},
+		{
+			"name": "关卡详情-选中道具效果1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/关卡详情-选中道具效果1.jpg"
+		},
+		{
+			"name": "关卡详情-道具说明1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/关卡详情-道具说明1.jpg"
+		},
+		{
+			"name": "暂停界面1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/暂停界面1.jpg"
+		},
+		{
+			"name": "设置-开启音乐状态1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/设置-开启音乐状态1.jpg"
+		},
+		{
+			"name": "购买生命界面1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/购买生命界面1.jpg"
+		},
+		{
+			"name": "购买金币界面1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/购买金币界面1.jpg"
+		},
+		{
+			"name": "购买钻石界面1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/购买钻石界面1.jpg"
+		},
+		{
+			"name": "退出游戏提示1_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/退出游戏提示1.jpg"
+		},
+		{
+			"name": "主游戏_jpg",
+			"type": "image",
+			"url": "ui_res/tempImage/主游戏.jpg"
+		},
+		{
+			"name": "but_help_png",
+			"type": "image",
+			"url": "ui_res/main/but_help.png"
+		},
+		{
+			"name": "but_music_close_png",
+			"type": "image",
+			"url": "ui_res/main/but_music_close.png"
+		},
+		{
+			"name": "but_music_open_png",
+			"type": "image",
+			"url": "ui_res/main/but_music_open.png"
+		},
+		{
+			"name": "but_sound_close_png",
+			"type": "image",
+			"url": "ui_res/main/but_sound_close.png"
+		},
+		{
+			"name": "but_sound_open_png",
+			"type": "image",
+			"url": "ui_res/main/but_sound_open.png"
+		},
+		{
+			"name": "com_win_bg_png",
+			"type": "image",
+			"url": "ui_res/common/com_win_bg.png"
+		},
+		{
+			"name": "com_win_bg2_png",
+			"type": "image",
+			"url": "ui_res/common/com_win_bg2.png"
 		}
 	]
 }

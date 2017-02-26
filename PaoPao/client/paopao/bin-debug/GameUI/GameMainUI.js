@@ -21,23 +21,56 @@ var GameMainUI = (function (_super) {
         _super.prototype.childrenCreated.call(this);
         this.setButtonEvent(this.BtnAddHead);
         this.setButtonEvent(this.BtnAddDem);
+        this.setButtonEvent(this.BtnStart);
+        this.setButtonEvent(this.BtnHelp);
+        this.setButtonEvent(this.BtnSound);
+        this.setButtonEvent(this.BtnAddGold);
+        this.BtnAddHead.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonTapClick, this);
+        this.BtnAddDem.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonTapClick, this);
+        this.BtnStart.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonTapClick, this);
+        this.BtnHelp.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonTapClick, this);
+        this.BtnSound.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonTapClick, this);
+        this.BtnAddGold.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonTapClick, this);
+    };
+    GameMainUI.prototype.onButtonTapClick = function (e) {
+        if (e.currentTarget == this.BtnAddHead) {
+        }
+        else if (e.currentTarget == this.BtnAddDem) {
+        }
+        else if (e.currentTarget == this.BtnStart) {
+            var gamePlay = new GamePlayUI();
+            Director.getInstance().repleaceScene(gamePlay);
+        }
+        else if (e.currentTarget == this.BtnHelp) {
+        }
+        else if (e.currentTarget == this.BtnSound) {
+        }
+        else if (e.currentTarget == this.BtnAddGold) {
+        }
+        console.log("onButtonTapClick");
     };
     /**
      * 点击按钮
      * Click the button
      */
-    GameMainUI.prototype.onButtonBeginClick = function (e) {
-        if (e.currentTarget == this.BtnAddHead) {
-            e.currentTarget.$setScaleX(0.5);
+    GameMainUI.prototype.onButtonClick = function (e) {
+        if (e.type == egret.TouchEvent.TOUCH_BEGIN) {
+            e.currentTarget.$setScaleX(0.8);
+            e.currentTarget.$setScaleY(0.8);
         }
-        else if (e.currentTarget == this.BtnAddDem) {
-            e.currentTarget.$setScaleY(0.5);
+        if (e.type == egret.TouchEvent.TOUCH_END) {
+            e.currentTarget.$setScaleX(1);
+            e.currentTarget.$setScaleY(1);
         }
-        //this.Btn_Login.$setScaleX(0.85);
-        //this.Btn_Login.$setScaleY(0.85);
+        if (e.type == egret.TouchEvent.TOUCH_RELEASE_OUTSIDE) {
+            e.currentTarget.$setScaleX(1);
+            e.currentTarget.$setScaleY(1);
+        }
     };
     GameMainUI.prototype.setButtonEvent = function (button) {
-        button.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onButtonBeginClick, this);
+        button.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onButtonClick, this);
+        button.addEventListener(egret.TouchEvent.TOUCH_END, this.onButtonClick, this);
+        button.addEventListener(egret.TouchEvent.TOUCH_RELEASE_OUTSIDE, this.onButtonClick, this);
     };
     return GameMainUI;
 }(eui.Component));

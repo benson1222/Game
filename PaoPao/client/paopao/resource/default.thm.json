@@ -29,6 +29,8 @@
     "resource/eui_skins/ToggleSwitchSkin.exml",
     "resource/eui_skins/VScrollBarSkin.exml",
     "resource/eui_skins/VSliderSkin.exml",
+    "resource/ui_res/game/GamePauseUI.exml",
+    "resource/ui_res/game/GamePlayUI.exml",
     "resource/ui_res/main/PPMainUI.exml"
   ]
 }

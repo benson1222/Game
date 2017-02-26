@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="PPMainUI" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<w:Config id="15a6129dad6"/>
-	<e:Image source="11111_jpg" x="1" y="1" locked="true"/>
-	<e:Group id="groupTop" width="640" height="100" x="0" y="0">
-		<e:Image source="main_box_png" x="16.33" y="23.34" scaleX="1" scaleY="1"/>
-		<e:Image source="com_heard_png" x="8.02" y="14.68" scaleX="1" scaleY="1"/>
-		<e:Button id="BtnAddHead" label="" x="158.33" y="20" width="54">
+	<e:Image x="1" y="1" source="map_1_png"/>
+	<e:Group width="640" height="100" x="0" y="0">
+		<e:Image source="main_box_png" x="16.33" y="23.34" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Image source="com_heard_png" x="8.02" y="14.68" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Button id="BtnAddHead" label="" width="54" horizontalCenter="-135" verticalCenter="-3">
 			<e:skinName>
 			<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="main_add1_png"/>
@@ -13,49 +13,57 @@
 			</e:Skin>
 			</e:skinName>
 		</e:Button>
-		<e:Image source="main_box_png" x="228" y="22.68" scaleX="1" scaleY="1"/>
-		<e:Image x="214.69" y="15.02" scaleX="1" scaleY="1" source="com_dem_png"/>
-		<e:Button id="BtnAddDem" label="" x="367" y="20.02">
-			<e:skinName>
-			<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="main_add1_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-			</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:Image source="main_box_png" x="435" y="24.02" scaleX="1" scaleY="1"/>
-		<e:Image x="421.69" y="16.36" scaleX="1" scaleY="1" source="com_coin_png"/>
-		<e:Button id="BtnAddGold" label="" x="574" y="21.36">
-			<e:skinName>
-			<e:Skin states="up,down,disabled">
-				<e:Image width="100%" height="100%" source="main_add1_png"/>
-				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-			</e:Skin>
-			</e:skinName>
-		</e:Button>
-		<e:BitmapLabel id="labelM" width="64.28" height="39" x="67.02" y="37.35" text="88" font="font_main_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7"/>
-		<e:BitmapLabel id="labelS" width="64.28" height="39" x="112.66" y="36.35" text="06" font="font_main_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7"/>
-		<e:Image source="main_point_png" x="99.84" y="39.42" scaleX="0.7" scaleY="0.7"/>
-		<e:Group width="160" height="40" x="244.69" y="27.03">
+		<e:Image source="main_box_png" x="228" y="22.68" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Image x="214.69" y="15.02" scaleX="1" scaleY="1" source="com_dem_png" touchEnabled="false"/>
+		<e:Group width="160" height="40" x="244.69" y="27.03" touchEnabled="false" touchChildren="false">
 			<e:BitmapLabel id="LabelDemNum" font="font_main_fnt" text="9923" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6999999999999998" scaleY="0.6999999999999998" width="228.5714285714286" horizontalCenter="0" verticalCenter="0" textAlign="center"/>
 		</e:Group>
-		<e:Group width="160" height="40" x="450" y="28.02">
+		<e:Group width="160" height="40" x="450" y="28.02" touchEnabled="false" touchThrough="false" touchChildren="false">
 			<e:BitmapLabel id="LabelDemNum0" font="font_main_fnt" text="9923" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6999999999999998" scaleY="0.6999999999999998" width="228.5714285714286" horizontalCenter="0" verticalCenter="0" textAlign="center"/>
 		</e:Group>
+		<e:Button id="BtnAddDem" label="" horizontalCenter="74" verticalCenter="-3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_add1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="main_box_png" x="435" y="24.02" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Image x="421.69" y="16.36" scaleX="1" scaleY="1" source="com_coin_png" touchEnabled="false"/>
+		<e:Button id="BtnAddGold" label="" horizontalCenter="281" verticalCenter="-2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="main_add1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="labelM" width="64.28" height="39" x="67.02" y="37.35" text="88" font="font_main_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7" touchEnabled="false"/>
+		<e:BitmapLabel id="labelS" width="64.28" height="39" x="112.66" y="36.35" text="06" font="font_main_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7" touchEnabled="false"/>
+		<e:Image source="main_point_png" x="99.84" y="39.42" scaleX="0.7" scaleY="0.7" touchEnabled="false"/>
 	</e:Group>
-	<e:Button id="BtnStore" label="" horizontalCenter="3.5" bottom="15">
+	<e:Button id="BtnStart" label="" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="506" horizontalCenter="3.5">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="com_btn_6_png"/>
+			<e:Image width="100%" height="100%" source="com_btn_4_png"/>
 			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
 			</e:Skin>
 		</e:skinName>
 	</e:Button>
-	<e:Image source="com_store_png" horizontalCenter="4" bottom="37"/>
-	<e:Button id="BtnSetting" label="" x="19.37" y="1020.6">
+	<e:Image horizontalCenter="4" bottom="37" source="com_start_png" touchEnabled="false"/>
+	<e:Button id="BtnHelp" label="" bottom="18" horizontalCenter="260.5">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="main_set_png"/>
+			<e:Image width="100%" height="100%" source="but_help_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="BtnSound" label="" bottom="18" horizontalCenter="-256.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="but_sound_open_png"/>
 			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
 			</e:Skin>
 		</e:skinName>

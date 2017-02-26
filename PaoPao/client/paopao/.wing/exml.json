@@ -6,5 +6,15 @@
         "path": "GameUI/GameMainUI.ts",
         "class": "GameMainUI",
         "parentPath": ""
+    },
+    "15a787583fd": {
+        "path": "GameUI/GamePlayUI.ts",
+        "class": "GamePlayUI",
+        "parentPath": ""
+    },
+    "15a790063b0": {
+        "path": "GameUI/GamePauseUI.ts",
+        "class": "GamePauseUI",
+        "parentPath": ""
     }
 }

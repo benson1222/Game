@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="com_win_bg2_png" x="25" y="239" touchEnabled="false"/>
+	<e:Button id="BtnClose" label="" x="534" y="272" width="50">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="game_pause_Title_png" x="213.5" y="285"/>
+	<e:Image source="game_pause_bg_png" x="74" y="430" touchEnabled="false"/>
+	<e:Button id="BtnReplay" label="" x="73.5" y="662">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_5_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="com_replay_png" x="270" y="684" touchEnabled="false"/>
+	<e:Button id="BtnCancel" label="" x="75.5" y="768">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="com_cenal_png" x="270" y="790" touchEnabled="false"/>
+	<e:Label text="声音" x="133.5" y="472" size="46"/>
+	<e:Label text="音乐" x="133.5" y="568" size="46"/>
+	<e:Button id="BtnMusic" label="" x="468" y="545" anchorOffsetX="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="but_music_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="BtnSound" label="" x="468" y="442">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="but_sound_open_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>
